@@ -19,7 +19,7 @@ public class CustomListTest {
         list.addCity(calgary);
 
 
-        deleteCity(calgary);
+        list.deleteCity(calgary);
         assertFalse(list.hasCity(calgary));
 
     }
